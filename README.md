@@ -34,6 +34,7 @@ smtp_auth_password = PASSWORD
 
 # Docker
 
-Create docker image
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+*then create docker image
 docker build -t smtp-proxy:v1 .
 
