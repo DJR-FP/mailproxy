@@ -2,7 +2,7 @@ version: '3'
 services:
   smtpproxy:
     container_name: smtp-fplabs
-    image: smtp-proxy:v3
+    image: smtp-proxy:v1
     volumes:
       - ./conf:/conf
     ports:
