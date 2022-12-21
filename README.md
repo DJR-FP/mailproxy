@@ -35,7 +35,9 @@ smtp_auth_password = PASSWORD
 # Docker
 
 git clone https://github.com/DJR-FP/mailproxy.git
+
 *then create docker image
+
 docker build -t smtp-proxy:v1 .
 
 
