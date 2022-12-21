@@ -41,5 +41,8 @@ git clone https://github.com/DJR-FP/mailproxy.git
 
 docker build -t smtp-proxy:v1 .
 
+*using the docker compose file you must create a conf folder continaing an config.ini file.
+
+
 
 
