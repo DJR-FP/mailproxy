@@ -1,1 +1,9 @@
----
+version: '3'
+services:
+  smtpproxy:
+    container_name: smtp-fplabs
+    image: smtp-proxy:v3
+    volumes:
+      - ./conf:/conf
+    ports:
+      - 2626:2525
