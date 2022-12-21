@@ -7,3 +7,4 @@ services:
       - ./conf:/conf
     ports:
       - 2626:2525
+    restart: unless-stopped
