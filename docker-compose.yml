@@ -1,8 +1,8 @@
 version: '3'
 services:
   smtpproxy:
-    container_name: smtp-fplabs
-    image: smtp-proxy:v1
+    container_name: smtp-1
+    image: donamato/smtp-proxy:latest
     volumes:
       - ./conf:/conf
     ports:
