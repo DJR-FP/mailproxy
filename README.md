@@ -33,4 +33,7 @@ smtp_auth_password = PASSWORD
 ```
 
 # Docker
-blah
+
+Create docker image
+docker build -t smtp-proxy:v1 .
+
